@@ -27,7 +27,7 @@ if __name__=="__main__":
     if len(sys.argv)>=2 and sys.argv[1]=="retrain":
         train_scores = train_agent(agent, env, brain_name, save_name, n_episodes = 200)
     else:
-        agent.actor_local.load_state_dict(save_name+"_actor.pth")
+        agent.actor_local.load_state_dict(torch.load(save_name+"_actor.pth"))
         
 
         
