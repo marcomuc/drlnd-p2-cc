@@ -1,5 +1,5 @@
 # Report
-The scope of this report is to describe the learning algorithm, the hyperparameters and the performance of the agent used to solve the reacher v2 environment.
+The scope of this report is to describe the learning algorithm, the hyperparameters and the performance of the agent used to solve the *reacher v2* environment.
 
 # Learning algorithm and hyper parameters
 The agent uses the [DDPG algorithm.](https://arxiv.org/abs/1509.02971) DDPG is an actor-critic method: The optimal policy is directly estimated by an actor network from the input state. During training however, a second critic  network is used which estimates the value/advantage of a certain action in a given state to adjust the stepwidth of the gradient.
