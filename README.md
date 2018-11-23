@@ -3,7 +3,7 @@ The aim of this repository is to provide a solution to Udacity's [DRLND project 
 
 The possible actions consist of the applying a continous torque between -1 and 1 for each joint. Each of the joints has two degrees of freedom which results in an action space of size 4. The state space has a size of 33 and contains the position, rotion, velocities, angular velocities of the joints and the goal location.
 
-The code of this repository is based on [DDPG pendulum notebook](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum) and valuable discussions in the DRRLND slack channel. The repository contains the following files:
+The code of this repository is based on [DDPG pendulum notebook](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum) and valuable discussions in the DRLND slack channel. The repository contains the following files:
 * reacher_v2_agent.py - Code to run the agent with the final parameters
 * 013_final_recher_agent_actor.pth - weights of the actor network
 * 013_final_recher_agent_critic.pth - weights of the critic network (not necessary to run the agent)
