@@ -16,7 +16,7 @@ The code of this repository is based on [DDPG pendulum notebook](https://github.
 The agent itself requires only standard python3, PyTorch and Numpy. 
 1. Install [Anaconda](https://www.anaconda.com/download)
 2. Clone [Udacitys'DRLND repository(https://github.com/udacity/deep-reinforcement-learning)] and follow the installation instructions.
-3. Download the corresponding Unity environment for your system as described [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation#getting-started)
+3. Download the corresponding Unity environment for your system as described [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control#getting-started)
 4. Unzip the environment and change the *PATH_TO_ENV* in variable line 1 in reacher_v2_agent.py accordingly.
 
 # Instructions
